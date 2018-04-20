@@ -8,7 +8,7 @@ def oxford_comma(array)
          array.each do |val|
            string << val.to_s
          end
-         string
+         puts string
       end 
   
   end 
