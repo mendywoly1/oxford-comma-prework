@@ -3,10 +3,11 @@ def oxford_comma(array)
       string = array.join(" and ")
   else 
      counter = 1
-     string =""
+     string = ""
       while counter < array.length
-         string = array.join(", ")
-         counter += 1
+         array.each do |val|
+           string << val + , 
+         end
       end 
   
   end 
