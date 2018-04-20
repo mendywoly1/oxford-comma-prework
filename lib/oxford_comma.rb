@@ -8,5 +8,7 @@ def oxford_comma(array)
         string << "and #{val}"
       else
         string << "#{val, }"
+      end
+    end
   end
 end
