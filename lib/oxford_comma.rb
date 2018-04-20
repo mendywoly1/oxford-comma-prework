@@ -10,5 +10,6 @@ def oxford_comma(array)
         string << "#{val}, "
       end
     end
+    string
   end
 end
