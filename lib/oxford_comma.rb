@@ -4,7 +4,6 @@ def oxford_comma(array)
   else 
      counter = 1
      string = ""
-      while counter < array.length
          array.each do |val|
            string << val
          end
