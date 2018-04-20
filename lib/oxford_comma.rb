@@ -2,10 +2,9 @@ def oxford_comma(array)
   if array.size < 3 
       string = array.join(" and ")
   else 
-      num = array.length - 1 
-     counter = 0
+     counter = 1
      string =""
-      while counter < num
+      while counter < array.length
          string = array.join(", ")
          counter += 1
       end 
