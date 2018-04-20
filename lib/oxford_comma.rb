@@ -6,7 +6,7 @@ def oxford_comma(array)
      string = ""
       while counter < array.length
          array.each do |val|
-           string << val + , 
+           string << val + "," 
          end
       end 
   
