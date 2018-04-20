@@ -4,7 +4,7 @@ def oxford_comma(array)
   else 
     string = ""
     array.each_with_index do |val, index|
-      if index == array[-1]
+      if index == array.length[-1]
         string << "and #{val}"
       else
         string << "#{val}, "
